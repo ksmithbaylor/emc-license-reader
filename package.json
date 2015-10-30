@@ -1,31 +1,17 @@
 {
-  "name": "react-webpack-babel",
-  "version": "0.0.2",
-  "description": "React Webpack Babel Starter Kit",
+  "name": "emc-license-viewer",
+  "version": "0.0.1",
+  "description": "EMC License Viewer",
   "main": "''",
   "scripts": {
     "build": "webpack --progress --profile --colors",
     "dev": "webpack-dev-server --progress --profile --colors --hot"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alicoding/react-webpack-babel"
-  },
-  "keywords": [
-    "React",
-    "Webpack",
-    "Babel",
-    "Starter",
-    "template"
-  ],
-  "author": "Ali Al Dallal",
+  "author": "Kevin Smith",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/alicoding/react-webpack-babel/issues"
-  },
-  "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
   "dependencies": {
     "bootstrap": "^3.3.5",
+    "raw-loader": "^0.5.1",
     "react": "^0.13.3"
   },
   "devDependencies": {
@@ -35,7 +21,6 @@
     "file-loader": "^0.8.4",
     "react-hot-loader": "^1.2.7",
     "style-loader": "^0.12.4",
-    "url-loader": "^0.5.6",
     "webpack": "^1.9.11",
     "webpack-dev-server": "^1.9.0"
   }
